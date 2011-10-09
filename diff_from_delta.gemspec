@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Henry Turner"]
   #s.email       = ["TODO: Write your email address"]
   #s.homepage    = ""
-  s.summary     = %q{A helper to decode diff deltas produced by diff-match-patch}
+  s.summary     = %q{A ruby helper to decode diff deltas produced by diff-match-patch}
   #s.description = %q{A conversion of the python version to ruby.}
   
   s.add_development_dependency "rspec"
