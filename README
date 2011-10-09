@@ -1,0 +1,13 @@
+== diff_from_delta
+
+diff_from_delta converts delta strings produced by diff-match-patch ( http://code.google.com/p/google-diff-match-patch/ ) back to an array of diffs.
+
+Usage:
+
+To get the compiled string..
+
+DiffFromDelta::compile_diff_from_delta(original_text, delta_string)
+
+For the actual diff array..
+
+DiffFromDelta::diff_from_delta(original_text, delta_string)
