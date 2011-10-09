@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   #s.email       = ["TODO: Write your email address"]
   #s.homepage    = ""
   s.summary     = %q{A ruby helper to decode diff deltas produced by diff-match-patch}
-  #s.description = %q{A conversion of the python version to ruby.}
+  s.description = %q{A conversion of the python version to ruby from http://code.google.com/p/google-diff-match-patch/ and added tests.}
   
   s.add_development_dependency "rspec"
   s.add_development_dependency "guard-rspec"
